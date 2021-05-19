@@ -1,0 +1,183 @@
+.off {
+    display: none;
+}
+
+.likes_out {
+    text-align: center;
+}
+
+.likes_out h1 {
+    font-size: 20px;
+    margin: 10px auto 10px auto;
+}
+
+.likes_out h2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.likes_in {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.likes_in img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.like {
+    display: block;
+    margin: 10px;
+}
+
+.test {
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+    background-color: cyan;
+}
+
+.selected {
+    background-color: yellowgreen;
+}
+
+.like h3 {
+    margin: 10px;
+}
+
+label {
+    flex-wrap: wrap;
+    width: 300px;
+    position: relative;
+}
+
+.list_like label {
+    cursor: pointer;
+}
+
+
+.list_like label input[type="checkbox"] {
+    display: none;
+}
+
+.list_like label input[type="radio"] {
+    display: none;
+}
+
+.list_like label span {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(236, 236, 236);
+    background: rgb(121, 121, 121);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.list_like label span:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: chartreuse;
+}
+
+/* .list_like:nth-child(odd) label input[type="checkbox"]:checked ~ span {
+    background-color: blue;
+    -webkit-box-shadow: 0px 0px 35px -8px blue; 
+    box-shadow: 0px 0px 35px -8px blue;
+} */
+
+.list_like .a input[type="checkbox"]:checked ~ span {
+    background-color: #281bd8;
+    -webkit-box-shadow: 0px 0px 35px -8px #281bd8; 
+    box-shadow: 0px 0px 35px -8px #281bd8;
+}
+
+.list_like .b input[type="checkbox"]:checked ~ span {
+    background-color: #80ff00e0;
+    -webkit-box-shadow: 0px 0px 35px -8px #80ff00e0; 
+    box-shadow: 0px 0px 35px -8px #80ff00e0;
+}
+
+.list_like .c input[type="checkbox"]:checked ~ span {
+    background-color: #ec0e0e;
+    -webkit-box-shadow: 0px 0px 35px -8px #ec0e0e; 
+    box-shadow: 0px 0px 35px -8px #ec0e0e;
+}
+
+.list_like .d input[type="checkbox"]:checked ~ span {
+    background-color: #e60fee;
+    -webkit-box-shadow: 0px 0px 35px -8px #e60fee; 
+    box-shadow: 0px 0px 35px -8px #e60fee;
+}
+
+.list_like .e input[type="checkbox"]:checked ~ span {
+    background-color: #11dee6;
+    -webkit-box-shadow: 0px 0px 35px -8px #11dee6; 
+    box-shadow: 0px 0px 35px -8px #11dee6;
+}
+
+.list_like .f input[type="checkbox"]:checked ~ span {
+    background-color: #e9e912;
+    -webkit-box-shadow: 0px 0px 35px -8px #e9e912; 
+    box-shadow: 0px 0px 35px -8px #e9e912;
+}
+
+
+
+
+
+.ready {
+    background: rgb(236, 236, 236);
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.ready_in {
+    background: rgb(236, 236, 236);
+    height: 200px;
+    padding: 40px;
+}
+
+
+.ready_in button {
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    background: rgb(17, 236, 236);
+    border-radius: 12px;
+    border: 1px solid rgb(17, 236, 236);
+}
+
+
+.ready_in button:hover {
+    cursor: pointer;
+}
+
+/************************************************RESPONSIVE 769**************************************************/
+
+
+@media(min-width:769px) {
+    .like {
+        margin: 30px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

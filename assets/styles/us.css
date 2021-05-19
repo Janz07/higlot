@@ -1,0 +1,78 @@
+.us .container {
+    width: 90%;
+    margin: 10px auto 10px auto;
+}
+
+.us {
+    background-color: rgb(235, 235, 235);
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+.us_in .info1 {
+    margin: 10px 0px;    
+}
+
+
+
+
+/***************************************RESPONSIVE 769PX*********************************************/
+
+@media(min-width:769px) {
+    
+    
+    
+    .us .container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .us_in .info1 {
+        width: 80%;
+        margin: 5% 0px 5% 20%;
+    }
+
+    .us_in .info2 {
+        width: 80%;
+        margin: 5% 0px;
+    }
+
+    .us {
+        margin: 0px 0px;
+    }
+}
+
+
+
+
+/****************************************RESPONSIVE 1024PX**********************************************/
+
+@media(min-width:1024px) {
+    .us .container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .us {
+        margin: 0px 0px;
+    }
+
+    .us_in .info1 {
+        width: 60%;
+        margin: 8% 0px 5% 40%;
+    }
+
+    .us_in .info2 {
+        width: 60%;
+        margin: 8% 0px;
+    }
+
+
+}
