@@ -36,7 +36,6 @@
 
     
 
-    <div class="etc">
-    </div>
+    
 </body>
 </html>
