@@ -26,7 +26,7 @@
     <div class="banner">
         <div class="container">
             <div class="banner_in">
-                <form action="config/loginUser.php" method="POST">
+                <form action="config/loginUser.php" method="POST" autocomplete="off">
                     <h1>¡Inicia sesión!</h1>
                     <input type="text" name="email" id="" placeholder="Correo electrónico" required>
                     <input type="password" name="pass" id="" placeholder="Contraseña" required>

@@ -22,7 +22,7 @@
 
     <div class="signup_sec">
         <div class="container">
-            <form action="config/userRegistration.php" method="POST">
+            <form action="config/userRegistration.php" method="POST" autocomplete=off>
                 <h1>¿Listos?</h1>
                 <input type="text" name="email" placeholder="Correo electrónico">
                 <input type="text" name="name" placeholder="¿Cuál es tu nombre?">
