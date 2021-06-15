@@ -24,7 +24,7 @@
         <div class="container">
             <form action="config/userRegistration.php" method="POST" autocomplete=off>
                 <h1>¿Listos?</h1>
-                <input type="text" name="email" placeholder="Correo electrónico">
+                <input type="email" name="email" placeholder="Correo electrónico">
                 <input type="text" name="name" placeholder="¿Cuál es tu nombre?">
                 <input type="password" name="pass" placeholder="Contraseña">
                 <input type="password" name="pass2" placeholder="Verifica tu contraseña"> 
