@@ -1,0 +1,162 @@
+h1 {
+  margin: 50px auto;
+  text-align: center;
+}
+
+table {
+    margin: 0px auto; 
+    border-radius: 12px;
+    padding: 0;
+    width: 20px;
+    /* height: 35.25vw; */
+    border-radius: 0;
+    font-size: 10px;
+}
+  
+  
+thead {
+   background: rgb(2,0,36);background: linear-gradient(90deg, rgb(41, 218, 241) 0%, rgb(76, 9, 121) 35%, rgb(255, 0, 255) 100%);
+   color: white;
+   border-radius: 12px;
+}
+  
+  
+th {
+   padding: 20px;
+   margin: 0;
+   width: 300px;
+}
+  
+tbody {
+  border: 2px solid black;
+}
+  
+tr {
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+}
+  
+td {
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(167, 167, 167);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.notes {
+  width: 100%;
+  /* display: block; */
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tag {
+  background-color: rgb(209, 209, 209);
+  color: black;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h3 {
+margin: 10px;
+}
+
+.table_out {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media(min-width:425px){
+
+    table {
+      display: block;
+      font-size: 15px;
+      margin: 0px auto;
+      width: 80%;    }
+
+    .table_out {
+      width: 100%;
+      text-align: center;
+    }
+
+    th {
+        padding: 20px;
+        margin: 0;
+        width: 300px;
+     }
+
+     tr {
+        text-align: center;
+        padding: 10px;
+        height: 70px;
+      }
+
+      td {
+        background: rgb(255, 255, 255);
+        height: 30px;
+        border: 2px solid rgb(167, 167, 167);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+      }
+}
+
+@media(min-width:769px){
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .table_out {
+    width: 60%;
+    margin: 50px 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .notes {
+    margin: 50px 0;
+  }
+}
+
+
+
+@media(min-width:1024px) {
+
+  .container {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+  }
+
+  .table_out {
+    margin: 0 auto;
+    inline-size: min-content;
+    width: 60%;
+  }
+
+  table {
+    width: 100%;
+    margin: 0px auto 0 auto; 
+    display: block;
+    font-size: 15px;
+
+  }
+
+  .notes {
+    width: 300px;
+    margin: 0px 20px 40px;
+  }
+
+}
