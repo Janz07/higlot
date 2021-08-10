@@ -52,8 +52,10 @@
                </thead>
                <tbody>
                    <?php 
-                        $search = pg_connect("host=localhost port=5432 dbname=postgres user=postgres password=1006205761.Higlot") or die("Otra f");
-                        $result = "SELECT id, letter_es, letter_en, pronunciation FROM abc";
+                       $search = pg_connect("host=dbmainhiglot.c8jyywjwpyoj.us-east-1.rds.amazonaws.com port=5432 dbname=db_higlot user=dbmasterhiglot password=C8-09-A8-EA-05-D3") or die("Otra f");
+                       $result = "SELECT letter_id, letter_es, letter_en, pronunciation FROM anb.abc"; 
+                        
+                        // $result = "SELECT id, letter_es, letter_en, pronunciation FROM abc";
         
                         $resu = pg_query($search, $result);
         
