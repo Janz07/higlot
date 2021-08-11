@@ -1,0 +1,33 @@
+.container h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.phrase {
+    padding: 10px;
+}
+
+.txt_en p {
+    font-size: 20px;
+}
+
+.txt_es p {
+    font-weight: 800;
+    color: blue;
+}
+
+@media(min-width:769px) {
+    .container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container h1 {
+        margin: 50px;
+    }
+}
+
+@media(min-width:1024px) {
+    
+}

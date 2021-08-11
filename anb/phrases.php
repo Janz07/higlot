@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../assets/styles/fontello.css">
     <link rel="stylesheet" href="../assets/styles/body.css">
 
-
+    <link rel="stylesheet" href="../assets/styles/logged/anb/phrases.css">
 </head>
 <body>
     <?php
@@ -36,12 +36,12 @@
              while($row = pg_fetch_assoc($resu)){
                 echo 
                 '<div class="phrase">
-                    <div>'
-                    .$row['txt_en'].
-                    '</div>
-                    <div>'
-                    .$row['txt_es'].
-                    '</div>
+                    <div class="txt_en">
+                        <p>'.$row['txt_en'].'</p>
+                    </div>
+                    <div class="txt_es">
+                        <p>'.$row['txt_es'].'</p>
+                    </div>
                     <td></td>
                 </div>';
             }
@@ -50,6 +50,16 @@
 
 
         ?>
-    </div>    
+    </div>
+
+
+    <?php
+
+        include_once '../partials/footer.php';
+
+    ?>
+    
+    <script src="../assets/js/option_user.js"></script>
+    <script src="../assets/js/solution.js"></script>
 </body>
 </html>
