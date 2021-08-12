@@ -81,7 +81,9 @@
     </div>
 
 
-
+    <?php
+        include_once 'partials/footer.php';
+    ?>
     
     <script src="assets/js/option_user.js"></script>
 </body>

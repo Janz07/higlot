@@ -73,11 +73,10 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <h2>Derechos de autor</h2>
-        </div>
-    </footer>
+   
+    <?php
+        include_once 'partials/footer.php';
+    ?>
 
 
 </body>

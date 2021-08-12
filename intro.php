@@ -139,6 +139,8 @@
     include_once 'config/user.php';
 
     echo($id);
+
+    include_once 'partials/footer.php';
     
     ?>
 
