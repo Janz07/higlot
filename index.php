@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/font">
     <link rel="stylesheet" href="assets/styles/fontello.css">
+    <link rel="stylesheet" href="../assets/styles/footer.css">
+
     
     <link rel="stylesheet" href="assets/styles/body.css">
     <link rel="stylesheet" href="assets/styles/banner.css">
@@ -26,7 +28,7 @@
     <div class="banner">
         <div class="container">
             <div class="banner_in">
-                <form action="config/loginUser.php" method="POST" autocomplete="off">
+                <form action="start.php" method="POST" autocomplete="on">
                     <h1>¡Inicia sesión!</h1>
                     <input type="text" name="email" id="" placeholder="Correo electrónico" required>
                     <input type="password" name="pass" id="" placeholder="Contraseña" required>

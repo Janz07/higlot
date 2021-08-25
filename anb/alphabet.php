@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../assets/font">
     <link rel="stylesheet" href="../assets/styles/fontello.css">
     <link rel="stylesheet" href="../assets/styles/body.css">
+    <link rel="stylesheet" href="../assets/styles/footer.css">
+
     
     <link rel="stylesheet" href="../assets/styles/logged/anb/abc.css">
 

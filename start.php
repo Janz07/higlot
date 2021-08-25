@@ -1,3 +1,9 @@
+<?php
+
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,15 +24,15 @@
     <?php
         include_once 'config/config.php';
         include_once 'config/connect.php';
-
-        session_start();
-
+        include_once 'config/loginUser.php';
+        
+       
         include 'partials/header_logged.php';
 
     ?>
 
     <h3>
-        <?php echo $_SESSION['usu_id'];?>
+        <?php echo $_SESSION['email'];?>
     </h3>
 
 
