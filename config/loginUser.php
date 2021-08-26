@@ -12,14 +12,10 @@ Connect::openConn();
 $validator = new ConfirmLogin($_POST['email'], $_POST['pass'], Connect::getConn());
 
 if ($validator->getError() === "" && !is_null($validator->getUser())) {
-    echo 'Sesión iniciada con éxito!';
-
-    
+    //echo 'Sesión iniciada con éxito!';
+ 
     $_SESSION['email'] = $_POST['email'];
-
-
-        
-    
+   
 }
 else {
     echo $validator->getError();

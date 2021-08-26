@@ -21,7 +21,7 @@ class ConfirmLogin {
             if (is_null($this->user) || !password_verify($pass, $this->user->getPass())) {
                 
                 $this->error = "¡Ups! datos incorrectos";
-                $this->error = header('Location: ../error.php');
+                $this->error = header('Location: error.php');
             }
         }
     }

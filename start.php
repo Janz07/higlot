@@ -1,6 +1,5 @@
 <?php
 
-    session_start();
 
 ?>
 
@@ -25,6 +24,7 @@
         include_once 'config/config.php';
         include_once 'config/connect.php';
         include_once 'config/loginUser.php';
+        include_once 'config/getData/getPersonalData.php';
         
        
         include 'partials/header_logged.php';
@@ -32,7 +32,7 @@
     ?>
 
     <h3>
-        <?php echo $_SESSION['email'];?>
+        <?php echo $nameSe?>
     </h3>
 
 
