@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/font">
-    <link rel="stylesheet" href="assets/styles/fontello.css">   
+    <link rel="stylesheet" href="assets/styles/fontello.css"> 
+    <link rel="stylesheet" href="assets/styles/footer.css">
+  
 
     <link rel="stylesheet" href="assets/styles/body.css">
     <link rel="stylesheet" href="assets/styles/signup.css">

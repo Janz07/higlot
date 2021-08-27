@@ -76,6 +76,10 @@ footer .social a {
         padding: 40px;
     }
 
+    footer .container {
+        margin: 0 auto;
+    }
+
     footer .container div {
         margin: 50px;
     }

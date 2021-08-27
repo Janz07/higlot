@@ -57,4 +57,14 @@ form input{
 
 }
 
+@media(min-width:1024px) {
+    .signup_sec .container {
+        margin: 0px auto;
+    }
+    
+}
+
+
+
+
 

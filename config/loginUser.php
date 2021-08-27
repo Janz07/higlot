@@ -14,6 +14,8 @@ $validator = new ConfirmLogin($_POST['email'], $_POST['pass'], Connect::getConn(
 if ($validator->getError() === "" && !is_null($validator->getUser())) {
     //echo 'Sesión iniciada con éxito!';
  
+    session_start();
+
     $_SESSION['email'] = $_POST['email'];
    
 }
