@@ -57,7 +57,7 @@ footer .social a {
 
 @media(min-width:769px){
     
-    .container {
+    footer .container {
         width: 80%;
     }
 

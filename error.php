@@ -28,7 +28,7 @@
             <h2>El correo y/o la contraseña no coinciden, verifica nuevamente</h2>
         </div>
         <div class="login_form">
-            <form action="config/loginUser.php" method="POST">
+            <form action="start.php" method="POST">
                 <h1>¡Inicia sesión!</h1>
                 <input type="text" name="email" id="" placeholder="Correo electrónico">
                 <input type="password" name="pass" id="" placeholder="Contraseña">
