@@ -52,7 +52,7 @@
                 </div>
                 <div class="parallax" id="sec_en">
                     <div class="button_ch">
-                        <a href="#" class="choose">
+                        <a href="en/intro.php" class="choose">
                             Escoger
                         </a>
                     </div>
