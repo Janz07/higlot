@@ -135,19 +135,12 @@ session_start();
                         </div>
                     </div>
                 </div>
-                <div class="ready_in">
-                    <h2>¿Listo? Aesgúrate de haber escogido tus opciones con sabiduria... Y comenzemos!</h2>
-                    <button>Empezar</button>
-                </div>
+               
+                <button type="button" id="button">Comencemos</button>
             </form>
         </div>  
     </div>
 
-    <div class="ready">
-        <div class="container">
-            
-        </div>
-    </div>
 
     <?php
     
@@ -155,9 +148,19 @@ session_start();
 
     include_once '../partials/footer.php';
     
+    if (isset($_GET["type"])) {
+        $phpVar1 = $_GET["type"];
+     
+        // mostrar $phpVar1 y $phpVar2
+        echo "<p>Parameters: " . $phpVar1  . "</p>";
+    } else {
+        echo "<p>No parameters</p>";
+    }
     ?>
 
 
-        <script src="../assets/js/option_user.js"></script>
+    <script src="../assets/js/option_user.js"></script>
+    <script src="../assets/js/get_likes.js"></script>
+    
 </body>
 </html>
