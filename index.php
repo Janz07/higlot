@@ -36,7 +36,7 @@
                     <h5>¿Olvidaste tu contraseña?</h5>
                     <a href="#" class="re_pa">Recordar contraseña</a>
 
-                    <div class="btn_register"> <a href="signup.php" class="register">Registrarme</a> </div>  
+                    <div class="btn_register"> <a href="signup.php" class="register" id="register">Registrarme</a> </div>  
                     <!-- <button class="btn_register" href="signup.php">Registrarme</button>   -->
 
                 </form>

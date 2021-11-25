@@ -57,10 +57,12 @@ form .btn_login {
     border-radius: 12px;
     font-size: 20px;
     font-weight: 600;
+    transition: .5s;
 }
 
 .btn_login:hover {
     cursor: pointer;
+    color: rgb(255, 0, 0);
 }
 
 .banner_txt {
@@ -86,7 +88,15 @@ form .btn_login {
     box-sizing: inherit;
     margin: 10px auto 0px auto;
     text-align: center;
+    transition: .5s;
+    border: 3px solid transparent;
 } 
+
+.btn_register:hover > a{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+
+}
 
 .btn_register:hover{
     cursor: pointer;
@@ -94,7 +104,11 @@ form .btn_login {
 
 .btn_register a{
     width: 100%;
+    transition: .3s;
+    line-height: 45px;    
 }
+
+
 
 .register {
     color: black;
