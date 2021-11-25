@@ -53,23 +53,19 @@
         <div class="container">
             <div class="us_in">
                 <div class="info1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Libero ipsum iusto quasi eos rem dignissimos iure id, similiqueLorem ipsum dolor sit 
-                    amet consectetur adipisicing elit. 
-                    Libero ipsum iusto quasi eos rem dignissimos iure id, similique 
-                    amet unde molestias omnis, voluptatum quia veniam obcaecati quos ipsa facilis laboriosam?                
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Libero ipsum iusto quasi eos rem dignissimos iure id, similique 
-                    amet unde molestias omnis, voluptatum quia veniam obcaecati quos ipsa facilis laboriosam?
+                    Sabemos lo que conlleva aprender un idioma, con el pasar de los años todos nos hemos dado cuenta
+                    que puede ser más que sólo repetir palabras... Sí, como un loro. En Higlot creemos aprender no 
+                    es lo mismo que repetir, para aprender se debe estar realmente inmerso en una experiencia, encontrarle 
+                    gusto a lo que hacemos, leemos, vemos y escuchamos! La educación convencional tiene muchas cosas a favor 
+                    pero también muchas por mejorar.
                 </div>
     
                 <div class="info2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Libero ipsum iusto quasi eos rem dignissimos iure id, similique 
-                    amet unde molestias omnis, voluptatum quia veniam obcaecati quos ipsa facilis laboriosam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Libero ipsum iusto quasi eos rem dignissimos iure id, similique 
-                    amet unde molestias omnis, voluptatum quia veniam obcaecati quos ipsa facilis laboriosam?
+                    Creemps que ya te dimos a entender más o menos a dónde vamos... En Higlot sabemos que cada persona es un 
+                    mundo diferente, que la forma en que aprendes tal vez no es la misma que la que aprenden los demás 
+                    o como está "estipulado" en la sociedad, para ello Higlot se enfoca en crear todo un plan de estudio basado en 
+                    tus intereses ("sólo para ti"), ese tema del que no paras de hablar, esa serie, deporte, videojuego, aprenderás mucho más fácil 
+                    con lo que te gusta, aprenderás mucho más fácil con Higlot. 
                 </div>
             </div>
         </div>

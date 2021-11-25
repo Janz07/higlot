@@ -95,8 +95,24 @@ let h = ["op3", "op4", "op5"];
 //     console.log((showValues('op')));
 // });
 
+/******************************************************* TEST 2 ************************************************ */
+// button.addEventListener('click', (event) => {
+//     var xz = "xz";
+//     window.location.href = window.location.href + "?type=" + xz;
+// });
+/******************************************************* TEST 3 ******************************************************* */
+
+function test3(name) {
+    const options = document.querySelectorAll(`input[name="${name}"]:checked`); //Get the options checked
+    let values = []; //Options selected
+
+    options.forEach(option => {
+    values.push(option.value);
+    }); 
+}
+
 button.addEventListener('click', (event) => {
-    var xz = "xz";
-    window.location.href = window.location.href + "?type=" + xz;
+    console.log(test3('tag'));
 });
+
 

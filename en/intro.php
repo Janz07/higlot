@@ -41,7 +41,7 @@ session_start();
         <div class="container">
             <h1>Esto sólo es el comienzo</h1>
             <h2>¡Queremos conocerte! En base a lo que te gusta te enseñaremos tu idioma favorito.</h2>
-            <form action="config/intro/get_likes.php" method="POST">
+            <form action="#" method="POST">
                 <div class="likes_in">
                     <div class="like">
                         <h3>Deportes</h3>
@@ -89,7 +89,7 @@ session_start();
                                 <span class="item_like">Rock</span>
                             </label>
                             <label for="m2" class="b">
-                                <input type="checkbox" name="tag[]" id="m2" value="reggae">
+                                <input type="checkbox" name="tag[]" id="m2" value="reggaeton">
                                 <span class="item_like">Regageton</span>
                             </label>
                             <label  for="m3" class="c">
@@ -107,7 +107,7 @@ session_start();
                                 <span class="item_like">Aventura</span>
                             </label>
                             <label for="b2" class="d">
-                                <input type="checkbox" name="tag[]" id="b2" value="GP">
+                                <input type="checkbox" name="tag[]" id="b2" value="pg">
                                 <span class="item_like">Crecimiento personal</span>
                             </label>
                             <label  for="b3" class="f">
@@ -148,19 +148,19 @@ session_start();
 
     include_once '../partials/footer.php';
     
-    if (isset($_GET["type"])) {
-        $phpVar1 = $_GET["type"];
+    // if (isset($_GET["type"])) {
+    //     $phpVar1 = $_GET["type"];
      
-        // mostrar $phpVar1 y $phpVar2
-        echo "<p>Parameters: " . $phpVar1  . "</p>";
-    } else {
-        echo "<p>No parameters</p>";
-    }
+    //     // mostrar $phpVar1 y $phpVar2
+    //     echo "<p>Parameters: " . $phpVar1  . "</p>";
+    // } else {
+    //     echo "<p>No parameters</p>";
+    // }
     ?>
 
 
     <script src="../assets/js/option_user.js"></script>
-    <script src="../assets/js/get_likes.js"></script>
+    <script src="../assets/js/get_likes2.js"></script>
     
 </body>
 </html>
