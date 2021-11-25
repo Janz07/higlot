@@ -1,11 +1,11 @@
 footer {
-    background: rgb(235, 235, 235);
+    background: rgb(0, 0, 0);
     width: 100%;
     height: auto;
     display: block;
     text-align: center;
     box-sizing: content-box;
-    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 footer .container {
@@ -16,6 +16,7 @@ footer .container {
 
 footer .container div {
     margin: 30px;
+    background-color: black;
 }
 
 
@@ -24,11 +25,12 @@ footer .us ul li {
     text-decoration: none;
     list-style: none;
     margin: 10px;
+    color: white;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 footer a:hover {
@@ -45,7 +47,7 @@ footer .legal ul li {
 }
 
 footer .social a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
 }
@@ -62,15 +64,18 @@ footer .social a {
     }
 
     footer{
-        margin: 40px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        /* top 40 px*/
     }
 }
 
 @media(min-width:1024px) {
     
     footer{
-        margin: 100px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        /* top 40 px*/
     }
+    
 
     .footer {
         padding: 40px;
