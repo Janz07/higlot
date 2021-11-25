@@ -23,6 +23,12 @@
     
     <?php
         require 'partials/header.php';
+
+        if($_GET){
+            echo "<script>alert('Perfecto, ya estás registrado, ya puedes iniciar sesión!');</script>";
+        }else{
+            echo "<script>alert('Lo siento, creo que ha ocurrido un error, inténtalo más tarde!');</script>";
+        }
     ?>
 
     <div class="banner">

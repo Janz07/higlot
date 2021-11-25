@@ -16,7 +16,9 @@
         $insertUser = RepoUser::insertUser(Connect::getConn(), $user);
 
         if ($insertUser) {
-            echo 'Usuario satisfactoriamente registrado';
+            $user = "reg-suc";
+            header("Location:../index.php?user=".$user);
+            exit();
         }
         else{
             echo 'No hemos podido insertar tu usuario';

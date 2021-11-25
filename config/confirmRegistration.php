@@ -47,8 +47,9 @@ class ValidatorRegistration{
             $this->name = $name; 
         }
 
-        if (strlen($name)<6) {
-            return "El nombre del usuario debe ser de al menos 6 caracteres";
+        if (strlen($name)<1) {
+            return "El nombre del usuario debe ser de al menos 1 caracteres";
+
         }
         
         if (strlen($name)>20) {
@@ -86,8 +87,8 @@ class ValidatorRegistration{
             return "Ingrese su contraseña antes de continuar";
         }
 
-        if (strlen($pass)<6) {
-            return "Por tu seguridad la contraseña debe contener al menos 6 caracteres";
+        if (strlen($pass)<1) {
+            return "Por tu seguridad la contraseña debe contener al menos 1 caracteres";
         }
 
         return "";
