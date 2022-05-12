@@ -8,7 +8,11 @@
                 <i class="icon-user" id="icon_user">
                     <nav class="menu" id="menu">
                         <ul class="option-user">
-                            <li><a href="profile.php"><?php echo $nameSe ?></a></li>
+                            <li><a href="profile.php">
+                                <?php 
+                                // echo $nameSe 
+                                ?>Usuario</a>
+                            </li>
                             <li><a href="#">Configuración</a></li>
                             <li><a href="logged/moment.php">Mi momento</a></li>
                             <li><a href="index.php">Cerrar sesión</a></li>

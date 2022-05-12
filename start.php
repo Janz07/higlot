@@ -23,10 +23,10 @@
 <body>
 
     <?php
-        include_once 'config/config.php';
-        include_once 'config/connect.php';
-        include_once 'config/loginUser.php';
-        include_once 'config/getData/getPersonalData.php';
+        // include_once 'config/config.php';
+        // include_once 'config/connect.php';
+        // include_once 'config/loginUser.php';
+        // include_once 'config/getData/getPersonalData.php';
         
        
         include 'partials/header_logged.php';
@@ -34,7 +34,11 @@
     ?>
 
 
-    <h1>¡Hola <?php echo $nameSe?>!</h1>
+    <h1>¡Hola 
+        <?php 
+        // echo $nameSe
+        ?>!
+    </h1>
 
 
     <h3>
@@ -79,7 +83,6 @@
             </div>
         </section>
 
-        
 
 
 

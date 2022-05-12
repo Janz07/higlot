@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+// session_start();
 
 
 ?>
@@ -27,9 +27,9 @@ session_start();
 
     <?php
 
-        include_once '../config/config.php';
-        include_once '../config/connect.php';
-        include_once '../config/getData/getPersonalData.php';
+        // include_once '../config/config.php';
+        // include_once '../config/connect.php';
+        // include_once '../config/getData/getPersonalData.php';
 
 
 
