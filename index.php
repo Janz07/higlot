@@ -27,7 +27,8 @@
         if($_GET){
             echo "<script>alert('Perfecto, ya estás registrado, ya puedes iniciar sesión!');</script>";
         }else{
-            echo "<script>alert('Lo siento, creo que ha ocurrido un error, inténtalo más tarde!');</script>";
+            echo "<script>alert('En este momento la base de datos no está enlazada, accede a las demás
+            páginas mediante la URL, eje: higlot/profile.php, higlot/start.php...');</script>";
         }
     ?>
 
@@ -36,6 +37,7 @@
             <div class="banner_in">
                 <form action="start.php" method="POST" autocomplete="on">
                     <h1>¡Inicia sesión!</h1>
+                    <p>Ingresa cualquier correo y contraseña y podrás acceder</p>
                     <input type="text" name="email" id="" placeholder="Correo electrónico" required>
                     <input type="password" name="pass" id="" placeholder="Contraseña" required>
                     <button type="submit"class="btn_login">Entrar</button>

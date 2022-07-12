@@ -168,6 +168,7 @@ form button {
 }
 
 
+
 form button:hover {
     cursor: pointer;
     background: turquoise;
@@ -179,6 +180,7 @@ form button:hover {
 @media(min-width:769px) {
     .like {
         margin: 30px;
+        
     }
 
     .container {

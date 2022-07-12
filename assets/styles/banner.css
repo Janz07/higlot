@@ -33,6 +33,9 @@ form .re_pa {
     color: blue;
 }
 
+form p {
+    font-size: .7em;
+}
 
 form input{
     display: block;
